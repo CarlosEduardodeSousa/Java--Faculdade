@@ -10,7 +10,7 @@ public class Retângulo {
         double ladoB = leia.nextDouble();
         perim = 2*ladoA + 2*ladoB;
         System.out.println("Perimetro: " + perim + "cm");
-        area = ladoA + ladoB;
+        area = ladoA * ladoB;
         System.out.println("Área do retângulo: " + area + "cm");
 
     }
