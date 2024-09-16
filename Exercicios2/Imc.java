@@ -13,8 +13,9 @@ public class Imc {
         float altura = leia.nextFloat();
         imc = peso / (altura*altura);
         System.out.println("-------------------------------");
-        System.out.println("O IMC da pessoa é:" + imc + "Kg/m");
+        System.out.println("O IMC da pessoa é: " + imc + "Kg/m");
         System.out.println("-------------------------------");
+        leia.close();
 
     }
 }
