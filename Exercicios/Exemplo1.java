@@ -1,4 +1,7 @@
+package Exercicios;
+
 import java.util.Scanner;
+
 public class Exemplo1 {
     public static void main(String[] args) {
 

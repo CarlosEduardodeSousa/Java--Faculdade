@@ -1,3 +1,5 @@
+package Exercicios;
+
 import javax.swing.JOptionPane;
 
 public class Helloworld2 {
