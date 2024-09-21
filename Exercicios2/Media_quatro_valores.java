@@ -19,5 +19,7 @@ public class Media_quatro_valores {
         System.out.println("----------------------------------");
         System.out.println("A média dos valores é: " + media);
         System.out.println("----------------------------------");
+
+        leia.close();
     }
 }

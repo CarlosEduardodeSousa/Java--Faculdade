@@ -18,5 +18,7 @@ public class Nota_peso {
         System.out.println("-----------------------------------------");
         System.out.println("A media ponderada é: " + media_ponderada);
         System.out.println("-----------------------------------------");
+
+        leia.close();
     }
 }

@@ -13,5 +13,6 @@ public class Exemplo1 {
         System.out.println("Profissão: " + profissao);
         System.out.println("Idade: " + idade);
 
+        leia.close();
     }
 }

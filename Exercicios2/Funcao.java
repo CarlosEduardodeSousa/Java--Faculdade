@@ -11,5 +11,7 @@ public class Funcao {
         float x = leia.nextFloat();
         y = 3 + (2*x);
         System.out.println("y= " + y);
+
+        leia.close();
     }
 }

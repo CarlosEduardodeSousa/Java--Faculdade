@@ -15,5 +15,6 @@ public class Retângulo {
         area = ladoA * ladoB;
         System.out.println("Área do retângulo: " + area + "cm");
 
+        leia.close();
     }
 }

@@ -23,6 +23,6 @@ public class Ex03 {
         System.out.println("Área do retângulo inferior: " + area_inferior);
         System.err.println("--------------------------------------------------");
         
-
+        leia.close();
     }
 }

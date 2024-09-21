@@ -10,5 +10,7 @@ public class Quadrado_numero {
         int n = leia.nextInt();
         q = n*n;
         System.out.println("O resultado do número: " + n + " ao quadrado é: " + q);
+
+        leia.close();
     }
 }

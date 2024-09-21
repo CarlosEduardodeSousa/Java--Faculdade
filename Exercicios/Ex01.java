@@ -17,5 +17,7 @@ public class Ex01 {
         System.out.println("Cargo: " + cargo);
         System.err.println("--------------------------");
 
+        leia.close();
+
     }
 }

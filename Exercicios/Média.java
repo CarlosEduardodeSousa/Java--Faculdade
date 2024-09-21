@@ -12,5 +12,7 @@ public class Média {
         float n2 = leia.nextFloat();
         media = (n1+n2)/2;
         System.out.println("Á média dos números é:" + media);
+
+        leia.close();
     }
 }

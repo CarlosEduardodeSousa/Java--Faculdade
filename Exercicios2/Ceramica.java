@@ -21,5 +21,7 @@ public class Ceramica {
         System.out.println("Quantidade de caixas necessárias: " + n_caixa);
         System.out.println("Custo total: " + custo_total);
         System.out.println("-----------------------------------------------");
+
+        leia.close();
     }
 }

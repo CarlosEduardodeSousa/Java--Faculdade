@@ -11,5 +11,6 @@ public class Ex04 {
         conversor = dol * 5;
         System.out.println("O valor em Reais: " + conversor);
 
+        leia.close();
     }
 }

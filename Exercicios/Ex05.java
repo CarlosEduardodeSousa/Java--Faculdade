@@ -17,5 +17,7 @@ public class Ex05 {
         System.out.println("valores lidos: " + horas + " e " + minutos);
         System.out.println("Impressão: " + conversor + " minutos");
         System.out.println("--------------------------------");
+
+        leia.close();
     }
 }

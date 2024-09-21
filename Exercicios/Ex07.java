@@ -16,5 +16,7 @@ public class Ex07 {
         System.out.println("------------------------");
         System.out.println("Resultado: " + resultado);
         System.out.println("O seu triplo: " + triplo);
+
+        leia.close();
     }
 }

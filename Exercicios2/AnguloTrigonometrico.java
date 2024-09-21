@@ -20,5 +20,7 @@ public class AnguloTrigonometrico {
         System.out.println("Cosseno: " + cosseno);
         System.out.println("Tangente: " + tangente);
         System.out.println("--------------------------");
+
+        leia.close();
     }
 }

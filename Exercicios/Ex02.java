@@ -11,5 +11,7 @@ public class Ex02 {
         int n2 = leia.nextInt();
         soma = n1 + n2;
         System.out.println("Á soma de " + n1 + "+" + n2 + " é " + soma);
+
+        leia.close();
     }
 }

@@ -19,5 +19,7 @@ public class Ex06 {
         System.out.println("Subtração: " + subtracao);
         System.out.println("Multiplicação: " + multiplicacao);
         System.out.println("-----------------------");
+
+        leia.close();
     }
 }
