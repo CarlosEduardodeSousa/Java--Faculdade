@@ -14,8 +14,8 @@ public class Equação_2grau {
         double c = leia.nextDouble();
         delta = (b*b) - 4 * a* c;
 
-        x1 = (-b + Math.sqrt(delta)) / (2*a);
-        x2 = (-b - Math.sqrt(delta)) / (2*a);
+        x1 = (-(-b) + Math.sqrt(delta)) / (2*a);
+        x2 = (-(-b) - Math.sqrt(delta)) / (2*a);
 
         System.out.println("--------------------------------");
         System.out.println("Resultado");
