@@ -7,11 +7,11 @@ public class Ceramica {
         int n_caixa;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Digite a largura da área (em metros): ");
+        System.out.print("Digite a largura da área (em metros): ");
         float largura = leia.nextFloat();
-        System.out.println("Digite o comprimento da área (em metros): ");
+        System.out.print("Digite o comprimento da área (em metros): ");
         float comprimento = leia.nextFloat();
-        System.out.println("Digite o valor unitario da caixa de piso (em reais): ");
+        System.out.print("Digite o valor unitario da caixa de piso (em reais): ");
         int v_caixa = leia.nextInt();
         area_total = largura*comprimento;
         Double area_caixa = 2.5;

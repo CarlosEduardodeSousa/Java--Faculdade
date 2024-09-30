@@ -6,13 +6,13 @@ public class Ex03 {
         double area_total, area_superior, area_inferior;
 
         Scanner leia = new Scanner(System.in);
-        System.out.println("Altura do retângulo superior: ");
+        System.out.print("Altura do retângulo superior: ");
         double a1 = leia.nextDouble();
-        System.out.println("Base do retângulo superior; ");
+        System.out.print("Base do retângulo superior; ");
         double b1 = leia.nextDouble();
-        System.out.println("Altura do retângulo inferior: ");
+        System.out.print("Altura do retângulo inferior: ");
         double a2 = leia.nextDouble();
-        System.out.println("Base do retângulo inferior: ");
+        System.out.print("Base do retângulo inferior: ");
         double b2 = leia.nextDouble();
         area_total = (a1*b1) + (a2*b2);
         area_superior = a1*b1;

@@ -6,9 +6,9 @@ public class Turno_salario {
         Scanner leia = new Scanner(System.in);
         double valor_hora, valor_salario; 
 
-        System.out.println("Digite seu turno de trabalho (N para noturno e assim por diante): ");
+        System.out.print("Digite seu turno de trabalho (N para noturno e assim por diante): ");
         char turno = leia.next().charAt(0);
-        System.out.println("Digite a quantidade de horas trabalhadas: ");
+        System.out.print("Digite a quantidade de horas trabalhadas: ");
         float horas = leia.nextFloat();
         if (turno == 'N' || turno == 'n'){
             valor_hora = 45.00;

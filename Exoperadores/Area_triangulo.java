@@ -6,9 +6,9 @@ public class Area_triangulo {
         float area;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Informe a altura do triangulo: ");
+        System.out.print("Informe a altura do triangulo: ");
         float altura = leia.nextFloat();
-        System.out.println("Informe a base do triangulo: ");
+        System.out.print("Informe a base do triangulo: ");
         float base = leia.nextFloat();
         area = (base * altura) / 2;
         System.out.println("-----------------");

@@ -7,7 +7,7 @@ public class Funcao {
         float y;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Entre com o valor de x: ");
+        System.out.print("Entre com o valor de x: ");
         float x = leia.nextFloat();
         y = 3 + (2*x);
         System.out.println("y= " + y);

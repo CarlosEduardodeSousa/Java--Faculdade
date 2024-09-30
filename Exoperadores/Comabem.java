@@ -7,7 +7,7 @@ public class Comabem {
         float total, total_conta;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Digite o valor da conta: ");
+        System.out.print("Digite o valor da conta: ");
         float valor = leia.nextFloat();
         total = valor * 10/100;
         total_conta = valor + total;

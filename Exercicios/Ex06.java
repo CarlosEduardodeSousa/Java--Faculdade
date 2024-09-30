@@ -7,9 +7,9 @@ public class Ex06 {
         int soma, subtracao, multiplicacao;
         
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite o primeiro valor: ");
+        System.out.print("Digite o primeiro valor: ");
         int v1 = leia.nextInt();
-        System.out.println("Digite o segundo valor: ");
+        System.out.print("Digite o segundo valor: ");
         int v2 = leia.nextInt();
         soma = v1 + v2;
         subtracao = v1 - v2;

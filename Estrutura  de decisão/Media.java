@@ -5,12 +5,12 @@ public class Media {
         Scanner leia = new Scanner (System.in);
         float media;
 
-        System.out.println("Digite a primeira nota: ");
+        System.out.print("Digite a primeira nota: ");
         float n1 = leia.nextFloat();
-        System.out.println("Digite sua segunda nota: ");
+        System.out.print("Digite sua segunda nota: ");
         float n2 = leia.nextFloat();
         media = (n1+n2)/2;
-        System.err.println("Média: " + media);
+        System.out.println("Média: " + media);
         if (media>=6){
             System.out.println("Aprovado");
         }

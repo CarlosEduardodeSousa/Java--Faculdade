@@ -5,9 +5,9 @@ public class Ex02 {
         int soma;
 
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite o primeiro número: ");
+        System.out.print("Digite o primeiro número: ");
         int n1 = leia.nextInt();
-        System.err.println("Digite o segundo número: ");
+        System.err.print("Digite o segundo número: ");
         int n2 = leia.nextInt();
         soma = n1 + n2;
         System.out.println("Á soma de " + n1 + "+" + n2 + " é " + soma);

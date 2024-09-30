@@ -7,9 +7,9 @@ public class Imc {
         float imc;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Digite o peso da pessoa (em Kg): ");
+        System.out.print("Digite o peso da pessoa (em Kg): ");
         float peso = leia.nextFloat();
-        System.out.println("Digite a altura da pessoa (em m): ");
+        System.out.print("Digite a altura da pessoa (em m): ");
         float altura = leia.nextFloat();
         imc = peso / (altura*altura);
         System.out.println("-------------------------------");

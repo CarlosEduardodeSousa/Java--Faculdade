@@ -5,9 +5,9 @@ public class Volume_cilindro {
     public static void main(String[] args) {
         double volume, area_da_base;
         Scanner leia = new Scanner (System.in);
-        System.out.println("Digite o valor da altura do cilindro: ");
+        System.out.print("Digite o valor da altura do cilindro: ");
         double h = leia.nextDouble();
-        System.out.println("Digite o valor do raio do cilindro: ");
+        System.out.print("Digite o valor do raio do cilindro: ");
         double r = leia.nextDouble();
         area_da_base = Math.PI * (r*r);
         volume = area_da_base*h;

@@ -5,7 +5,7 @@ public class Número_usuario {
     public static void main(String[] args) {
         Scanner leia = new Scanner (System.in);
 
-        System.out.println("Digite um número inteiro: ");
+        System.out.print("Digite um número inteiro: ");
         int num = leia.nextInt();
         if (num >= 0 && num <=9){
             System.out.println("Valor correto");

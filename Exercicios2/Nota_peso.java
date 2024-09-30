@@ -7,11 +7,11 @@ public class Nota_peso {
         double media_ponderada, media;
 
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite a primeira nota: ");
+        System.out.print("Digite a primeira nota: ");
         double n1 = leia.nextDouble();
-        System.out.println("Digite a segunda nota: ");
+        System.out.print("Digite a segunda nota: ");
         double n2 = leia.nextDouble();
-        System.out.println("Digite a terceira nota: ");
+        System.out.print("Digite a terceira nota: ");
         double n3 = leia.nextDouble();
         media = (n1*1) + (n2*2) + (n3*4);
         media_ponderada = media / (1+2+4);

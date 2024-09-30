@@ -6,11 +6,11 @@ public class Equação_2grau {
       double delta, x1, x2;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Informe o coeficiente a: ");
+        System.out.print("Informe o coeficiente a: ");
         double a = leia.nextDouble();
-        System.out.println("Informe o coeficiente b: ");
+        System.out.print("Informe o coeficiente b: ");
         double b = leia.nextDouble();
-        System.out.println("Informe o coeficiente c: ");
+        System.out.print("Informe o coeficiente c: ");
         double c = leia.nextDouble();
         delta = (b*b) - 4 * a* c;
 

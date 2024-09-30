@@ -7,9 +7,9 @@ public class Ex05 {
         int conversor;
 
         Scanner leia = new Scanner(System.in);
-        System.out.println("Valor de horas: ");
+        System.out.print("Valor de horas: ");
         int horas = leia.nextInt();
-        System.out.println("Valor de minutos ");
+        System.out.print("Valor de minutos ");
         int minutos = leia.nextInt();
         conversor = horas*60;
         conversor = conversor + minutos;

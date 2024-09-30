@@ -6,11 +6,11 @@ public class Equação {
         Scanner leia = new Scanner (System.in);
         double delta, x1 , x2;
 
-        System.out.println("Digite o valor de a: ");
+        System.out.print("Digite o valor de a: ");
         int a = leia.nextInt();
-        System.out.println("Digite o valor de b: ");
+        System.out.print("Digite o valor de b: ");
         int b = leia.nextInt();
-        System.out.println("Digite o valor de c: ");
+        System.out.print("Digite o valor de c: ");
         int c = leia.nextInt();
         delta = (b*b) - 4 * a * c;
         if (delta >0){

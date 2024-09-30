@@ -6,9 +6,9 @@ public class Operações_Resultado {
         int soma, subtracao, multiplicacao, divisao, rest_divisao;
 
         Scanner leia = new Scanner (System.in);
-        System.out.println("Digite um número inteiro: ");
+        System.out.print("Digite um número inteiro: ");
         int n1 = leia.nextInt();
-        System.out.println("Digite outro número inteiro: ");
+        System.out.print("Digite outro número inteiro: ");
         int n2 = leia.nextInt();
         soma = n1 + n2;
         subtracao = n1 - n2;

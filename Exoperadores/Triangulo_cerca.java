@@ -7,9 +7,9 @@ public class Triangulo_cerca {
         double c;
         Scanner leia = new Scanner (System.in);
 
-        System.out.println("Digite o comprimento do lado a: ");
+        System.out.print("Digite o comprimento do lado a: ");
         double a = leia.nextDouble();
-        System.out.println("Digite o comprimento do lado b: ");
+        System.out.print("Digite o comprimento do lado b: ");
         double b = leia.nextDouble();
         c = Math.sqrt((a*a) + (b*b));
         System.out.println("----------------");

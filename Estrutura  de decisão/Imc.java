@@ -5,9 +5,9 @@ public class Imc {
         Scanner leia = new Scanner (System.in);
         double imc;
 
-        System.out.println("Digite seu peso (em Kg): ");
+        System.out.print("Digite seu peso (em Kg): ");
         double peso = leia.nextDouble();
-        System.err.println("Digite sua altura (em metros): ");
+        System.err.print("Digite sua altura (em metros): ");
         double altura = leia.nextDouble();
         imc = peso / (altura*altura);
         System.out.println("IMC: " + imc);

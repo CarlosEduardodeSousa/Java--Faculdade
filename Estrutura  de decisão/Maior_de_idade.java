@@ -4,10 +4,10 @@ public class Maior_de_idade {
     public static void main(String[] args) {
         Scanner leia = new Scanner (System.in);
 
-        System.out.println("Digite sua idade: ");
+        System.out.print("Digite sua idade: ");
         int idade = leia.nextInt();
         if (idade >= 18){
-            System.err.println("Maior de Idade");
+            System.err.print("Maior de Idade");
         }
 
         else{

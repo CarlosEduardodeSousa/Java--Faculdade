@@ -6,7 +6,7 @@ public class AnguloTrigonometrico {
     public static void main(String[] args) {
         
         Scanner leia = new Scanner(System.in);
-        System.out.println("Digite um ângulo (em graus): ");
+        System.out.print("Digite um ângulo (em graus): ");
         double graus = leia.nextDouble();
         double radiano = Math.toRadians(graus);
         double cosseno = Math.cos(radiano);
