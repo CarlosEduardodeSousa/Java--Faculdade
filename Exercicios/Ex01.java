@@ -11,7 +11,7 @@ public class Ex01 {
         int quantdep = leia.nextInt();
         System.out.print("Digite o seu cargo: ");
         String cargo = leia.next();
-        System.err.println("------------------------");
+        System.out.println("------------------------");
         System.out.println("Nome: " + nome);
         System.out.println("Quantidade de dependentes: " + quantdep);
         System.out.println("Cargo: " + cargo);
