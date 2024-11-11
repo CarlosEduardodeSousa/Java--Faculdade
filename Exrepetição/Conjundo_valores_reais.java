@@ -7,16 +7,16 @@ public class Conjundo_valores_reais {
         int cont, totaprovados;
         double soma_nota, media_turma;
 
-        System.out.println("Digite a quantidade de alunos da sala: ");
+        System.out.print("Digite a quantidade de alunos da sala: ");
         int quant_aluno = leia.nextInt();
 
         soma_nota = 0;
         totaprovados = 0;
         for(cont = 1; cont<=quant_aluno; cont++){
-            System.out.println("Digite a nota do " + cont + " o.aluno: ");
+            System.out.print("Digite a nota do " + cont + " o.aluno: ");
             double nota = leia.nextDouble();
             soma_nota = soma_nota + nota;
-            if (nota > 6){
+            if (nota >= 6){
                 totaprovados = totaprovados + 1;
             }
         }
