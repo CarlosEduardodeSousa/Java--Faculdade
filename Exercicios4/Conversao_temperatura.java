@@ -34,5 +34,6 @@ public class Conversao_temperatura {
                         break;
                 }
             }while (resp != 3);
+            leia.close();
     }
 }
