@@ -10,7 +10,7 @@ public class FizzBuzz {
         int num = leia.nextInt();
 
         cont = 0;
-        while (cont <= num){
+        while (cont < num){
             cont = cont + 1;
             if (cont % 3 == 0 && cont % 5 == 0){
                 System.out.println("FizzBuzz");
